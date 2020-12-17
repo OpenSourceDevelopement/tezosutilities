@@ -28,7 +28,7 @@
         "path": "^0.12.7",
         "request": "^2.88.2",
         "conseiljs": "^5.0.4",
-        "conseiljs-softsigner": "^5.0.3"
+        "conseiljs-softsigner": "^5.0.3",
         "moment": "^2.26.0",
         "morgan": "^1.9.1",
     }
