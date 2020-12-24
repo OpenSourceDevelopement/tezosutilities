@@ -2,6 +2,15 @@
  
 This README would normally document whatever steps are necessary to get your application up and running.
  
+### In Breif ###
+
+* It uses conseiljs framework to create a public Key and Private Key that belongs to tezos BlockChain 
+* Those keys can be activated in the tezos BlockChain
+* It also contain fileUpload service where we can upload files to amazonS3 directly using the multer-s3
+* This project is setup in configurable manner such that we can configure mongoDb for future use
+* The Account creation procedure is aldready been implemented in the /getAccount api . Its a post Request that has to be made via Postman or using Axios or fetch in reactjs/Angular . It returns the public and private Key. That can further be activated in the tezos BlockChain and used .
+* This repository also contains the http-service using which api calls can be made .
+
 ### What is this repository for? ###
  
 * Generates public and private key along with the pass phrase for the tezos block chain when we call /getAccount  
