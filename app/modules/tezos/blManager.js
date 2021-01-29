@@ -1,4 +1,3 @@
-import Parser from "../../utils/parser";
 import { httpConstants, apiFailureMessage, genericConstants, notificationConstants, AMQP_CONSTANTS } from "../../common/constants";
 import Utils from "../../utils";
 
